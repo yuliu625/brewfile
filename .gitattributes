@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+# This Project
+Brewfile linguist-language=Ruby
+Brewfile.* linguist-language=Ruby
