@@ -1,0 +1,25 @@
+name: Brewfile Static Validation
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  syntax-check:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate Brewfile and Brewfile.* syntax
+        run: |
+          echo "Starting Brewfile syntax check..."
+          for file in Brewfile Brewfile.*; do
+            if [ -f "$file" ]; then
+              echo "----------------------------------------"
+              echo "Checking syntax for: $file"
+              brew bundle list --all --file="$file"
+            fi
+          done
+          echo "----------------------------------------"
+          echo "All Brewfiles passed syntax check successfully."
