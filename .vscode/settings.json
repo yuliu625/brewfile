@@ -1,0 +1,7 @@
+{
+    // Enable VS Code to syntax-highlight custom Brewfiles
+    "files.associations": {
+        "Brewfile": "ruby",
+        "Brewfile.*": "ruby",
+    },
+}
