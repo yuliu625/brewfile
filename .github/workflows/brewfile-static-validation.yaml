@@ -18,7 +18,7 @@ jobs:
             if [ -f "$file" ]; then
               echo "----------------------------------------"
               echo "Checking syntax for: $file"
-              brew bundle list --file="$file"
+              brew bundle list --all --file="$file"
             fi
           done
           echo "----------------------------------------"
