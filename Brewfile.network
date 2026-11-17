@@ -1,0 +1,14 @@
+# @category Network
+
+
+# @sources https://formulae.brew.sh/formula/curl#default
+# @references https://curl.se/
+brew "curl"
+
+# @sources https://formulae.brew.sh/formula/wget#default
+# @references https://www.gnu.org/software/wget/
+brew "wget"
+
+# @sources https://formulae.brew.sh/formula/aria2#default
+# @references https://aria2.github.io/
+brew "aria2"
