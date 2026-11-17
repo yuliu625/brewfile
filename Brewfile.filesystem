@@ -1,0 +1,6 @@
+# @category Filesystem
+
+
+# @sources https://formulae.brew.sh/cask/fuse-t#default
+# @references https://www.fuse-t.org/
+brew "fuse-t"
