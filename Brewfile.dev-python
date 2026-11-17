@@ -1,0 +1,6 @@
+# @category Python Development
+
+
+# @sources https://formulae.brew.sh/formula/uv#default
+# @references https://docs.astral.sh/uv/
+brew "uv"
