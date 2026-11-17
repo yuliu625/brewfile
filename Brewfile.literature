@@ -1,0 +1,6 @@
+# @category Literature Management
+
+
+# @sources https://formulae.brew.sh/cask/zotero#default
+# @references https://www.zotero.org/
+cask "zotero"
