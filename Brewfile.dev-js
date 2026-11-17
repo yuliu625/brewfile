@@ -1,0 +1,6 @@
+# @category JavaScript Development
+
+
+# @sources https://formulae.brew.sh/formula/pnpm#default
+# @references https://pnpm.io/
+brew "pnpm"
