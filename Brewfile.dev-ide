@@ -1,2 +1,10 @@
+# @category Development IDEs
+
+
+# @sources https://formulae.brew.sh/cask/visual-studio-code#default
+# @references https://code.visualstudio.com/
 cask "visual-studio-code"
+
+# @sources https://formulae.brew.sh/cask/zed#default
+# @references https://zed.dev/
 cask "zed"
