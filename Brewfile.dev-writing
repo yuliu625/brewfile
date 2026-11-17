@@ -1,0 +1,6 @@
+# @category Writing System
+
+
+# @sources https://formulae.brew.sh/cask/quarto#default
+# @references https://www.quarto.org/
+cask "quarto"
