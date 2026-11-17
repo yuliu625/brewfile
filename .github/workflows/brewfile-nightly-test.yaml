@@ -1,0 +1,29 @@
+name: Brewfile Nightly Test
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  regression-test:
+    name: Regression Test
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@main
+      - name: Show Homebrew version
+        run: brew --version
+      - name: Print Brewfile
+        run: |
+          echo "=== Brewfile Preview ==="
+          cat Brewfile.*
+          echo "================================"
+      - name: Install Brewfiles
+        run: |
+          echo "Starting Brewfile installation tests..."
+          cat Brewfile.* | brew bundle --file=-
+          echo "All Brewfiles have been installed."
