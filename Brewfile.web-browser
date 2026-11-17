@@ -1,2 +1,10 @@
+# @category Web Browsers
+
+
+# @sources https://formulae.brew.sh/cask/microsoft-edge#default
+# @references https://www.microsoft.com/en-us/edge?form=
 cask "microsoft-edge"
+
+# @sources https://formulae.brew.sh/cask/google-chrome#default
+# @references https://www.google.com/chrome/
 cask "google-chrome"
