@@ -1,0 +1,18 @@
+# @category File Transfer
+
+
+# @sources https://formulae.brew.sh/formula/rsync#default
+# @references https://rsync.samba.org/
+brew "rsync"
+
+# @sources https://formulae.brew.sh/formula/croc#default
+# @references https://github.com/schollz/croc
+brew "croc"
+
+# @sources https://formulae.brew.sh/formula/rclone#default
+# @references https://rclone.org/
+brew "rclone"
+
+# @sources https://formulae.brew.sh/formula/sshfs#default
+# @references https://github.com/libfuse/sshfs
+brew "sshfs"
