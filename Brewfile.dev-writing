@@ -4,3 +4,7 @@
 # @sources https://formulae.brew.sh/cask/quarto#default
 # @references https://www.quarto.org/
 cask "quarto"
+
+# @sources https://formulae.brew.sh/formula/typst#default
+# @references https://typst.app/
+brew "typst"
