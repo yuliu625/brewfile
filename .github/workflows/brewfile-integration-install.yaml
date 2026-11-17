@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
       - name: Set up Homebrew
-        uses: Homebrew/actions/setup-homebrew@v3
+        uses: Homebrew/actions/setup-homebrew@master
       - name: Show Homebrew version
         run: brew --version
       - name: Print Brewfile
