@@ -1,0 +1,6 @@
+# @category Development Environment
+
+
+# @sources https://formulae.brew.sh/formula/pixi#default
+# @references https://pixi.sh/
+brew "pixi"
