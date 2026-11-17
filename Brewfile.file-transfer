@@ -15,4 +15,4 @@ brew "rclone"
 
 # @sources https://formulae.brew.sh/formula/sshfs#default
 # @references https://github.com/libfuse/sshfs
-brew "sshfs"
+# brew "sshfs"
