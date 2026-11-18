@@ -1,6 +1,10 @@
 # @category Base Development Tools
 
 
+# @sources https://formulae.brew.sh/formula/openssh#default
+# @references https://www.openssh.org/
+brew "openssh"
+
 # @sources https://formulae.brew.sh/formula/git#default
 # @references https://git-scm.com/
 brew "git"
