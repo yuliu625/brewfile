@@ -1,6 +1,10 @@
 # @category Filesystem
 
 
+# @sources https://formulae.brew.sh/cask/macfuse#default
+# @references https://macfuse.github.io/
+cask "macfuse"
+
 # @sources https://formulae.brew.sh/cask/fuse-t#default
 # @references https://www.fuse-t.org/
 cask "fuse-t"
