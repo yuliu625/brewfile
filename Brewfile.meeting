@@ -1,0 +1,6 @@
+# @category Meeting
+
+
+# @sources https://formulae.brew.sh/cask/zoom#default
+# @references https://www.zoom.us/
+cask "zoom"
