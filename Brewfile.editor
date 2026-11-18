@@ -1,0 +1,18 @@
+# @category Editor
+
+
+# @sources https://formulae.brew.sh/formula/vim#default
+# @references https://www.vim.org/
+brew "vim"
+
+# @sources https://formulae.brew.sh/cask/macvim-app#default
+# @references https://github.com/macvim-dev/macvim
+cask "macvim-app"
+
+# @sources https://formulae.brew.sh/formula/neovim#default
+# @references https://neovim.io/
+brew "neovim"
+
+# @sources https://formulae.brew.sh/formula/helix#default
+# @references https://helix-editor.com/
+brew "helix"
