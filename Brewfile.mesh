@@ -1,0 +1,20 @@
+# @category Mesh
+
+
+# @sources https://formulae.brew.sh/formula/tailscale#default
+# @references https://tailscale.com/
+brew "tailscale"
+
+# @sources https://formulae.brew.sh/cask/tailscale-app#default
+# @references https://tailscale.com/
+# cask "tailscale-app"
+
+# @sources https://formulae.brew.sh/formula/headscale-cli#default
+# @references https://github.com/juanfont/headscale
+# brew "headscale-cli"
+
+# @sources https://formulae.brew.sh/cask/zerotier-one#default
+# @references https://www.zerotier.com/
+# brew "zerotier-one"
+
+
