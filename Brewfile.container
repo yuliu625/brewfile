@@ -1,0 +1,20 @@
+# @category Container
+
+
+# @sources https://formulae.brew.sh/formula/docker#default
+# @references https://www.docker.com/
+brew "docker"
+
+# @sources https://formulae.brew.sh/formula/podman#default
+# @references https://podman.io/
+brew "podman"
+
+# @sources https://formulae.brew.sh/cask/orbstack#default
+# @references https://orbstack.dev/
+cask "orbstack"
+
+# @sources https://formulae.brew.sh/formula/colima#default
+# @references https://colima.run/
+brew "colima"
+
+
